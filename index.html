@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 1 Lab</title>
+  </head>
+  <body>
+    <h1>The Perfect Seattle Day</h1>
+    <img src='http://fillmurray.com/200/300'/>
+    <section>
+        <h2>Question 1</h2>
+        <p>What's your name?</p>
+        <h2>Question 2</h2>
+        <p>What's your favorite restaurant?</p>
+        <h2>Question 3</h2>
+        <p>What about your favorite thing to do in Seattle?</p>
+        <h2>Question 4</h2>
+        <p>Who would you choose to join you on this perfect day?</p>
+    </section>
+  </body>
+  <script>
+      var name = prompt('What\'s your name?');
+      alert('Hey, ' + name + '. Let\'s create the perfect day in Seattle!');
+      console.log('What\'s your name?');
+      console.log(name);
+
+      var restaurant = prompt('What\'s your favorite restaurant?');
+      alert(restaurant + ' is a great choice, ' + name + ', but the answer is Maranation Ma Kai.');
+      console.log('What\'s your favorite restaurant?');
+      console.log(restaurant);
+
+      var activity = prompt('What is your favorite thing to do in Seattle?');
+      alert(activity + ' is fun, but the best thing to do in Seattle is go for a boat ride.');
+      console.log('What is your favorite thing to do in Seattle?');
+      console.log(activity);
+
+      var person = prompt('Who would you choose to join you on this perfect day?');
+      alert('Nope, ' + person + ' is awesome, but if you\'re in Seattle, Eddie Vetter is your best choice.');
+      console.log('Who would you choose to join you on this perfect day?');
+      console.log(person);
+
+      confirm('Would you like to see your results?');
+      alert('Although a day with ' + person + ' enjoying ' + activity + ' and eating at ' + restaurant + ' would be a good day, you will actually spend the day with Eddie Vetter. First he sings to you over lunch at Maranation Ma Kai, and then you have a private boat waiting for you and the two of you spend the day cruising the sound snuggling baby seals. You\'re welcome.');
+  </script>
+</html>
